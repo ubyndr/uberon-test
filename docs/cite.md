@@ -1,14 +1,14 @@
 # How to cite UBERON
 
-Uberon, an integrative multi-species anatomy ontology Mungall, C. J., Torniai, C., Gkoutos, G. V., Lewis, S. E., and Haendel, M. A. (2012) Genome Biology 13, R5. PMID:22293552
+Uberon, an integrative multi-species anatomy ontology Mungall, C. J., Torniai, C., Gkoutos, G. V., Lewis, S. E., and Haendel, M. A. (2012) Genome Biology 13, R5. [PMID:22293552](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-1-r5)
 
-Unification of multi-species vertebrate anatomy ontologies for comparative biology in Uberon Haendel, Melissa A; Balhoff, James P; Bastian, Frederic B; Blackburn, David C; Blake, Judith A; Bradford, Yvonne; Comte, Aurelie; Dahdul, Wasila M; Dececchi, Thomas A; Druzinsky, Robert E; Hayamizu, Terry F; Ibrahim, Nizar; Lewis, Suzanna E; Mabee, Paula M; Niknejad, Anne; Robinson-Rechavi, Marc; Sereno, Paul C; Mungall, Christopher J (2014) Journal of Biomedical Semantics, 5(1), 21. doi:10.1186/2041-1480-5-21
+Unification of multi-species vertebrate anatomy ontologies for comparative biology in Uberon Haendel, Melissa A; Balhoff, James P; Bastian, Frederic B; Blackburn, David C; Blake, Judith A; Bradford, Yvonne; Comte, Aurelie; Dahdul, Wasila M; Dececchi, Thomas A; Druzinsky, Robert E; Hayamizu, Terry F; Ibrahim, Nizar; Lewis, Suzanna E; Mabee, Paula M; Niknejad, Anne; Robinson-Rechavi, Marc; Sereno, Paul C; Mungall, Christopher J (2014) Journal of Biomedical Semantics, 5(1), 21. [doi:10.1186/2041-1480-5-21](https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-21)
 
-#Papers referencing UBERON
+##Papers referencing UBERON
 
 [Google scholar link](https://scholar.google.com/scholar?as_q=uberon)
 
-#Posters and Presentatations
+##Posters and Presentatations
 
 - Structuring Phenotype Data for Invertebrate Genomes - Chris Mungall, GIGA2 2015
 - From baleen to cleft palate: an ontological exploration of evolution and disease - Melissa Haendel, Keynote, Bio-Ontologies 2014
