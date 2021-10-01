@@ -1844,7 +1844,7 @@ test_owlaxioms:
 test: test_owlaxioms 
 
 docs/releases.md: uberon-odk.yaml
-	../scripts/make-release-pages.py $< ../../.token docs
+	../scripts/make-release-pages.py $< docs
 	# Amazing: only generate links to release artefacts if they truly exist:
 	# if http://purl.obolibrary.org/obo/mondo/releases/2021-01-01/mondo.owl exists, include it in overview.
 	# Use Github or obo purls (include switch that we can conficgue with ODK)

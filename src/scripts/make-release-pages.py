@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os
 from yaml import load, Loader
 from ghapi.core import GhApi
 from ghapi.page import pages
@@ -15,14 +16,20 @@ def _fetch_releases(api):
 
 @click.command('make-release-pages')
 @click.argument('config', type=click.File())
-@click.argument('tokenfile', type=click.File())
 @click.argument('outdir', type=click.Path(dir_okay=True, file_okay=False, exists=True))
-def run(config, tokenfile, outdir):
+@click.option('--token-file', 'tokenfile', type=click.Path(exists=False),
+              default='../../.token')
+def run(config, outdir, tokenfile):
     cfg = load(config, Loader=Loader)
-    token = tokenfile.read().strip()
 
     org = cfg['github_org']
     repo = cfg['repo']
+
+    if os.path.exists(tokenfile):
+        with open(tokenfile, 'r') as f:
+            token = f.read().strip()
+    else:
+        token = None
 
     api = GhApi(owner=org, repo=repo, token=token)
     releases = _fetch_releases(api)
