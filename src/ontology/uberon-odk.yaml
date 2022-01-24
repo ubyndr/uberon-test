@@ -41,11 +41,13 @@ import_group:
       is_large: TRUE
       use_gzipped: TRUE
     - id: pato
+      use_base: TRUE
     - id: bfo
     - id: ncbitaxon
       is_large: TRUE
       use_gzipped: TRUE
     - id: nbo
+      make_base: TRUE
     # Pipeline dependencies (not directly imported)
     - id: ceph
     - id: cteno
